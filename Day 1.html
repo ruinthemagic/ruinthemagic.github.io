@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_aa41be1491ae6fecda9e8854d4db64a2 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+    <script src="https://cdn.jsdelivr.net/npm/leaflet-textpath@1.2.3/leaflet.textpath.min.js"></script>
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_aa41be1491ae6fecda9e8854d4db64a2" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_aa41be1491ae6fecda9e8854d4db64a2 = L.map(
+                "map_aa41be1491ae6fecda9e8854d4db64a2",
+                {
+                    center: [41.904641, 12.504386],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 13,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_9707e66541449c9c8c3f66085fba4804 = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca target=\"_blank\" href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca target=\"_blank\" href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_aa41be1491ae6fecda9e8854d4db64a2);
+        
+    
+            var marker_ff2ddf7aac838b7c9f77872db4936f5e = L.marker(
+                [41.904641, 12.504386],
+                {}
+            ).addTo(map_aa41be1491ae6fecda9e8854d4db64a2);
+        
+    
+            var div_icon_a83f4d8bcbe6cb8a0180ba7a7d82bb96 = L.divIcon({"className": "empty", "html": "\u003cdiv style=\u0027background-color: white; padding: 3px; border: 1px solid black;\u0027\u003e1. Via Palestro 51\u003c/div\u003e", "iconAnchor": [0, 0], "iconSize": [150, 36]});
+            marker_ff2ddf7aac838b7c9f77872db4936f5e.setIcon(div_icon_a83f4d8bcbe6cb8a0180ba7a7d82bb96);
+        
+    
+        var popup_1131c63def49a6c97601cb2741ea0b1f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_901c4d0c734c44b99fff0db34d9191b2 = $(`<div id="html_901c4d0c734c44b99fff0db34d9191b2" style="width: 100.0%; height: 100.0%;"><a href="https://maps.apple.com/?address=Via%20Palestro%2051,%2000185%20Rome,%20Italy&auid=12208839912856235995&ll=41.904641,12.504386&lsp=9902&q=YellowSquare" target="_blank">https://maps.apple.com/?address=Via%20Palestro%2051,%2000185%20Rome,%20Italy&auid=12208839912856235995&ll=41.904641,12.504386&lsp=9902&q=YellowSquare</a><br>No notes</div>`)[0];
+                popup_1131c63def49a6c97601cb2741ea0b1f.setContent(html_901c4d0c734c44b99fff0db34d9191b2);
+            
+        
+
+        marker_ff2ddf7aac838b7c9f77872db4936f5e.bindPopup(popup_1131c63def49a6c97601cb2741ea0b1f)
+        ;
+
+        
+    
+    
+            var marker_5f0f38d2923d5b4482404262dd6b9a5e = L.marker(
+                [41.904641, 12.504386],
+                {}
+            ).addTo(map_aa41be1491ae6fecda9e8854d4db64a2);
+        
+    
+            var div_icon_11af8e0d0a3977e9d03408af7f8ca53b = L.divIcon({"className": "empty", "html": "\u003cdiv style=\u0027background-color: white; padding: 3px; border: 1px solid black;\u0027\u003e2. Via Palestro 51\u003c/div\u003e", "iconAnchor": [0, 0], "iconSize": [150, 36]});
+            marker_5f0f38d2923d5b4482404262dd6b9a5e.setIcon(div_icon_11af8e0d0a3977e9d03408af7f8ca53b);
+        
+    
+        var popup_759df186a18c68b9b82f316218a59be6 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_6050b24fe56c0bddf5ed34641d77d1e4 = $(`<div id="html_6050b24fe56c0bddf5ed34641d77d1e4" style="width: 100.0%; height: 100.0%;"><a href="https://maps.apple.com/?address=Via%20Palestro%2051,%2000185%20Rome,%20Italy&auid=12208839912856235995&ll=41.904641,12.504386&lsp=9902&q=YellowSquare" target="_blank">https://maps.apple.com/?address=Via%20Palestro%2051,%2000185%20Rome,%20Italy&auid=12208839912856235995&ll=41.904641,12.504386&lsp=9902&q=YellowSquare</a><br>No notes</div>`)[0];
+                popup_759df186a18c68b9b82f316218a59be6.setContent(html_6050b24fe56c0bddf5ed34641d77d1e4);
+            
+        
+
+        marker_5f0f38d2923d5b4482404262dd6b9a5e.bindPopup(popup_759df186a18c68b9b82f316218a59be6)
+        ;
+
+        
+    
+    
+            var marker_fb2f41447fcc2d1a94ec0fa113d27db7 = L.marker(
+                [41.89933, 12.49108],
+                {}
+            ).addTo(map_aa41be1491ae6fecda9e8854d4db64a2);
+        
+    
+            var div_icon_3811858382863a902583df76fb44b09a = L.divIcon({"className": "empty", "html": "\u003cdiv style=\u0027background-color: white; padding: 3px; border: 1px solid black;\u0027\u003e3. Via Nazionale 195\u003c/div\u003e", "iconAnchor": [0, 0], "iconSize": [150, 36]});
+            marker_fb2f41447fcc2d1a94ec0fa113d27db7.setIcon(div_icon_3811858382863a902583df76fb44b09a);
+        
+    
+        var popup_2472f8b697b74ed32c5c6c4cdb0e6f57 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f51fc0da1b633e3e52186ab72431a44f = $(`<div id="html_f51fc0da1b633e3e52186ab72431a44f" style="width: 100.0%; height: 100.0%;"><a href="https://maps.apple.com/?address=Via%20Nazionale%20195,%2000184%20Rome,%20Italy&auid=1481274158771338&ll=41.899330,12.491080&lsp=9902&q=Via%20Nazionale" target="_blank">https://maps.apple.com/?address=Via%20Nazionale%20195,%2000184%20Rome,%20Italy&auid=1481274158771338&ll=41.899330,12.491080&lsp=9902&q=Via%20Nazionale</a><br>No notes</div>`)[0];
+                popup_2472f8b697b74ed32c5c6c4cdb0e6f57.setContent(html_f51fc0da1b633e3e52186ab72431a44f);
+            
+        
+
+        marker_fb2f41447fcc2d1a94ec0fa113d27db7.bindPopup(popup_2472f8b697b74ed32c5c6c4cdb0e6f57)
+        ;
+
+        
+    
+    
+            var marker_293c0aeb7132e3793bd1f298d7596b68 = L.marker(
+                [41.899422, 12.490243],
+                {}
+            ).addTo(map_aa41be1491ae6fecda9e8854d4db64a2);
+        
+    
+            var div_icon_b5162d5dbb7ed47ce331e2010ae76231 = L.divIcon({"className": "empty", "html": "\u003cdiv style=\u0027background-color: white; padding: 3px; border: 1px solid black;\u0027\u003e4. Palazzo delle Esposizioni\u003c/div\u003e", "iconAnchor": [0, 0], "iconSize": [150, 36]});
+            marker_293c0aeb7132e3793bd1f298d7596b68.setIcon(div_icon_b5162d5dbb7ed47ce331e2010ae76231);
+        
+    
+        var popup_37bcf12ebc8d0ddcfe50cb8c9a63aeb9 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_684e380f20e27da29efcaa2ce491f7aa = $(`<div id="html_684e380f20e27da29efcaa2ce491f7aa" style="width: 100.0%; height: 100.0%;"><a href="https://maps.apple.com/?address=Via%20Nazionale%20194,%2000184%20Rome%20RM,%20Italy&auid=8681192056981339454&ll=41.899422,12.490243&lsp=9902&q=Palazzo%20delle%20Esposizioni" target="_blank">https://maps.apple.com/?address=Via%20Nazionale%20194,%2000184%20Rome%20RM,%20Italy&auid=8681192056981339454&ll=41.899422,12.490243&lsp=9902&q=Palazzo%20delle%20Esposizioni</a><br>No notes</div>`)[0];
+                popup_37bcf12ebc8d0ddcfe50cb8c9a63aeb9.setContent(html_684e380f20e27da29efcaa2ce491f7aa);
+            
+        
+
+        marker_293c0aeb7132e3793bd1f298d7596b68.bindPopup(popup_37bcf12ebc8d0ddcfe50cb8c9a63aeb9)
+        ;
+
+        
+    
+    
+            var marker_2cff92471f3331f5dbd393f7355705ee = L.marker(
+                [41.897625, 12.498466],
+                {}
+            ).addTo(map_aa41be1491ae6fecda9e8854d4db64a2);
+        
+    
+            var div_icon_dd9a57d48536527acb928fcbd41c7e01 = L.divIcon({"className": "empty", "html": "\u003cdiv style=\u0027background-color: white; padding: 3px; border: 1px solid black;\u0027\u003e5. Basilica Papale di Santa Maria Maggiore\u003c/div\u003e", "iconAnchor": [0, 0], "iconSize": [150, 36]});
+            marker_2cff92471f3331f5dbd393f7355705ee.setIcon(div_icon_dd9a57d48536527acb928fcbd41c7e01);
+        
+    
+        var popup_e248962860306debcaa397c53c5da036 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_522e3f51199137eea65ae75302162fcc = $(`<div id="html_522e3f51199137eea65ae75302162fcc" style="width: 100.0%; height: 100.0%;"><a href="https://maps.apple.com/?address=Piazza%20di%20Santa%20Maria%20Maggiore%2028,%2000185%20Rome,%20Italy&auid=4296638174262829964&ll=41.897625,12.498466&lsp=9902&q=Basilica%20Papale%20di%20Santa%20Maria%20Maggiore" target="_blank">https://maps.apple.com/?address=Piazza%20di%20Santa%20Maria%20Maggiore%2028,%2000185%20Rome,%20Italy&auid=4296638174262829964&ll=41.897625,12.498466&lsp=9902&q=Basilica%20Papale%20di%20Santa%20Maria%20Maggiore</a><br>No notes</div>`)[0];
+                popup_e248962860306debcaa397c53c5da036.setContent(html_522e3f51199137eea65ae75302162fcc);
+            
+        
+
+        marker_2cff92471f3331f5dbd393f7355705ee.bindPopup(popup_e248962860306debcaa397c53c5da036)
+        ;
+
+        
+    
+    
+            var marker_702b1348a24595d609f3214d13239aac = L.marker(
+                [41.902696, 12.496229],
+                {}
+            ).addTo(map_aa41be1491ae6fecda9e8854d4db64a2);
+        
+    
+            var div_icon_8c60116e13efd8b4a2ac0cff3efe9277 = L.divIcon({"className": "empty", "html": "\u003cdiv style=\u0027background-color: white; padding: 3px; border: 1px solid black;\u0027\u003e6. Piazza della Repubblica\u003c/div\u003e", "iconAnchor": [0, 0], "iconSize": [150, 36]});
+            marker_702b1348a24595d609f3214d13239aac.setIcon(div_icon_8c60116e13efd8b4a2ac0cff3efe9277);
+        
+    
+        var popup_ea77e5bcbef529135f0f81d5c0ce6405 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_7a0985c0574659854f4c3af4aa86b511 = $(`<div id="html_7a0985c0574659854f4c3af4aa86b511" style="width: 100.0%; height: 100.0%;"><a href="https://maps.apple.com/?address=Piazza%20della%20Repubblica,%20Piazza%20della%20Repubblica,%2000185%20Rome,%20Italy&auid=15728893051687367836&ll=41.902696,12.496229&lsp=9902&q=Piazza%20della%20Repubblica" target="_blank">https://maps.apple.com/?address=Piazza%20della%20Repubblica,%20Piazza%20della%20Repubblica,%2000185%20Rome,%20Italy&auid=15728893051687367836&ll=41.902696,12.496229&lsp=9902&q=Piazza%20della%20Repubblica</a><br>No notes</div>`)[0];
+                popup_ea77e5bcbef529135f0f81d5c0ce6405.setContent(html_7a0985c0574659854f4c3af4aa86b511);
+            
+        
+
+        marker_702b1348a24595d609f3214d13239aac.bindPopup(popup_ea77e5bcbef529135f0f81d5c0ce6405)
+        ;
+
+        
+    
+    
+            var marker_7db2f9cc63fca496d0f268512a0cfe66 = L.marker(
+                [41.904713, 12.494202],
+                {}
+            ).addTo(map_aa41be1491ae6fecda9e8854d4db64a2);
+        
+    
+            var div_icon_c2d328e988463015ab8ad07766059a6d = L.divIcon({"className": "empty", "html": "\u003cdiv style=\u0027background-color: white; padding: 3px; border: 1px solid black;\u0027\u003e7. Via XX Settembre 17\u003c/div\u003e", "iconAnchor": [0, 0], "iconSize": [150, 36]});
+            marker_7db2f9cc63fca496d0f268512a0cfe66.setIcon(div_icon_c2d328e988463015ab8ad07766059a6d);
+        
+    
+        var popup_5e4945ba25811e6ddf3a9acab242de6f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_61ecf9ac06239c969df4c91ad2ac53e3 = $(`<div id="html_61ecf9ac06239c969df4c91ad2ac53e3" style="width: 100.0%; height: 100.0%;"><a href="https://maps.apple.com/?address=Via%20XX%20Settembre%2017,%2000187%20Rome,%20Italy&auid=10106187853390805272&ll=41.904713,12.494202&lsp=9902&q=Santa%20Maria%20della%20Vittoria%20Church" target="_blank">https://maps.apple.com/?address=Via%20XX%20Settembre%2017,%2000187%20Rome,%20Italy&auid=10106187853390805272&ll=41.904713,12.494202&lsp=9902&q=Santa%20Maria%20della%20Vittoria%20Church</a><br>No notes</div>`)[0];
+                popup_5e4945ba25811e6ddf3a9acab242de6f.setContent(html_61ecf9ac06239c969df4c91ad2ac53e3);
+            
+        
+
+        marker_7db2f9cc63fca496d0f268512a0cfe66.bindPopup(popup_5e4945ba25811e6ddf3a9acab242de6f)
+        ;
+
+        
+    
+    
+            var marker_9ffb17c3969c011f2d59cbe112cbf203 = L.marker(
+                [41.900987, 12.483269],
+                {}
+            ).addTo(map_aa41be1491ae6fecda9e8854d4db64a2);
+        
+    
+            var div_icon_089a838eba06aa6dedc29d508bb61c87 = L.divIcon({"className": "empty", "html": "\u003cdiv style=\u0027background-color: white; padding: 3px; border: 1px solid black;\u0027\u003e8. Trevi Fountain\u003c/div\u003e", "iconAnchor": [0, 0], "iconSize": [150, 36]});
+            marker_9ffb17c3969c011f2d59cbe112cbf203.setIcon(div_icon_089a838eba06aa6dedc29d508bb61c87);
+        
+    
+        var popup_a15113de95e01e1d88eaa0598bf0a96e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d9d2f4a3ef9810aba69f1737735e25e4 = $(`<div id="html_d9d2f4a3ef9810aba69f1737735e25e4" style="width: 100.0%; height: 100.0%;"><a href="https://maps.apple.com/?address=Piazza%20di%20Trevi,%2000187%20Rome,%20Italy&auid=587740357591710012&ll=41.900987,12.483269&lsp=9902&q=Trevi%20Fountain" target="_blank">https://maps.apple.com/?address=Piazza%20di%20Trevi,%2000187%20Rome,%20Italy&auid=587740357591710012&ll=41.900987,12.483269&lsp=9902&q=Trevi%20Fountain</a><br>No notes</div>`)[0];
+                popup_a15113de95e01e1d88eaa0598bf0a96e.setContent(html_d9d2f4a3ef9810aba69f1737735e25e4);
+            
+        
+
+        marker_9ffb17c3969c011f2d59cbe112cbf203.bindPopup(popup_a15113de95e01e1d88eaa0598bf0a96e)
+        ;
+
+        
+    
+    
+            var marker_314187ca7324a845a0a91cd5ec29ceef = L.marker(
+                [41.894722, 12.493603],
+                {}
+            ).addTo(map_aa41be1491ae6fecda9e8854d4db64a2);
+        
+    
+            var div_icon_43b6f414f8aba9ea4942e6d114c0f66d = L.divIcon({"className": "empty", "html": "\u003cdiv style=\u0027background-color: white; padding: 3px; border: 1px solid black;\u0027\u003e9. Largo Visconti Venosta 228C\u003c/div\u003e", "iconAnchor": [0, 0], "iconSize": [150, 36]});
+            marker_314187ca7324a845a0a91cd5ec29ceef.setIcon(div_icon_43b6f414f8aba9ea4942e6d114c0f66d);
+        
+    
+        var popup_aa7b7796356ac82e9f2d4fa4a7e01aa5 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_51aba318060e1c9c206554e6bd35afb0 = $(`<div id="html_51aba318060e1c9c206554e6bd35afb0" style="width: 100.0%; height: 100.0%;"><a href="https://maps.apple.com/?address=Monti,%20Rome,%20Italy&auid=2444030399301339641&ll=41.894722,12.493603&lsp=6489&q=Monti" target="_blank">https://maps.apple.com/?address=Monti,%20Rome,%20Italy&auid=2444030399301339641&ll=41.894722,12.493603&lsp=6489&q=Monti</a><br>No notes</div>`)[0];
+                popup_aa7b7796356ac82e9f2d4fa4a7e01aa5.setContent(html_51aba318060e1c9c206554e6bd35afb0);
+            
+        
+
+        marker_314187ca7324a845a0a91cd5ec29ceef.bindPopup(popup_aa7b7796356ac82e9f2d4fa4a7e01aa5)
+        ;
+
+        
+    
+    
+            var marker_6337ec45e4aad826f4c7c551ffd86b18 = L.marker(
+                [41.896898, 12.494642],
+                {}
+            ).addTo(map_aa41be1491ae6fecda9e8854d4db64a2);
+        
+    
+            var div_icon_45a549c0765cb7893406bb6c4ae21324 = L.divIcon({"className": "empty", "html": "\u003cdiv style=\u0027background-color: white; padding: 3px; border: 1px solid black;\u0027\u003e10. Via Urbana 136\u003c/div\u003e", "iconAnchor": [0, 0], "iconSize": [150, 36]});
+            marker_6337ec45e4aad826f4c7c551ffd86b18.setIcon(div_icon_45a549c0765cb7893406bb6c4ae21324);
+        
+    
+        var popup_810453ad4efc4f32928fe18f08305e57 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_7abe9e52f1147a2037667d571019bc9d = $(`<div id="html_7abe9e52f1147a2037667d571019bc9d" style="width: 100.0%; height: 100.0%;"><a href="https://maps.apple.com/?address=Via%20Urbana,%2000184%20Rome,%20Italy&ll=41.896898,12.494642&q=Via%20Urbana" target="_blank">https://maps.apple.com/?address=Via%20Urbana,%2000184%20Rome,%20Italy&ll=41.896898,12.494642&q=Via%20Urbana</a><br>No notes</div>`)[0];
+                popup_810453ad4efc4f32928fe18f08305e57.setContent(html_7abe9e52f1147a2037667d571019bc9d);
+            
+        
+
+        marker_6337ec45e4aad826f4c7c551ffd86b18.bindPopup(popup_810453ad4efc4f32928fe18f08305e57)
+        ;
+
+        
+    
+    
+            var poly_line_b149d6b68056c05675b95a977c1e40b8 = L.polyline(
+                [[41.904641, 12.504386], [41.904641, 12.504386], [41.89933, 12.49108], [41.899422, 12.490243], [41.897625, 12.498466], [41.902696, 12.496229], [41.904713, 12.494202], [41.900987, 12.483269], [41.894722, 12.493603], [41.896898, 12.494642]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.7, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_aa41be1491ae6fecda9e8854d4db64a2);
+        
+    
+            poly_line_b149d6b68056c05675b95a977c1e40b8.setText(
+                "\u003e\u003e\u003e",
+                {"below": false, "center": true, "fontSize": 14, "offset": 0, "orientation": 0, "repeat": true, "textOpacity": 0}
+            );
+        
+</script>
+</html>
