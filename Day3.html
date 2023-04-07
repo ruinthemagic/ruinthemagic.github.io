@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_0e73349f299a4a153c05ed83357d448d {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+    <script src="https://cdn.jsdelivr.net/npm/leaflet-textpath@1.2.3/leaflet.textpath.min.js"></script>
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_0e73349f299a4a153c05ed83357d448d" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_0e73349f299a4a153c05ed83357d448d = L.map(
+                "map_0e73349f299a4a153c05ed83357d448d",
+                {
+                    center: [41.887348, 12.478333],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 13,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_dc3e629058cde9572023ff4d08032d47 = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca target=\"_blank\" href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca target=\"_blank\" href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_0e73349f299a4a153c05ed83357d448d);
+        
+    
+            var marker_10e8207fde41f42148f1443b5691e012 = L.marker(
+                [41.887348, 12.478333],
+                {}
+            ).addTo(map_0e73349f299a4a153c05ed83357d448d);
+        
+    
+            var div_icon_091a09b5a8ddb0323a60ad56deb8b9a1 = L.divIcon({"className": "empty", "html": "\u003cdiv style=\u0027background-color: white; padding: 3px; border: 1px solid black;\u0027\u003e1. Trastevere\u003c/div\u003e", "iconAnchor": [0, 0], "iconSize": [150, 36]});
+            marker_10e8207fde41f42148f1443b5691e012.setIcon(div_icon_091a09b5a8ddb0323a60ad56deb8b9a1);
+        
+    
+        var popup_7da0e09fa5f61bfe4b1a4d37b480a835 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_db36de7f098932b71b1571b363c9d560 = $(`<div id="html_db36de7f098932b71b1571b363c9d560" style="width: 100.0%; height: 100.0%;"><img src="https://upload.wikimedia.org/wikipedia/commons/c/cd/AlleyInTrastevereRome.jpg" width="200" height="auto"><p></p><a href="https://maps.apple.com/?address=Trastevere,%20Rome,%20Italy&auid=6827971081960622993&ll=41.887348,12.478333&lsp=6489&q=Trastevere" target="_blank">https://maps.apple.com/?address=Trastevere,%20Rome,%20Italy&auid=6827971081960622993&ll=41.887348,12.478333&lsp=6489&q=Trastevere</a><br>Explore the charming, cobblestoned streets of this lively neighborhood, filled with cafes, bars, and restaurants.</div>`)[0];
+                popup_7da0e09fa5f61bfe4b1a4d37b480a835.setContent(html_db36de7f098932b71b1571b363c9d560);
+            
+        
+
+        marker_10e8207fde41f42148f1443b5691e012.bindPopup(popup_7da0e09fa5f61bfe4b1a4d37b480a835)
+        ;
+
+        
+    
+    
+            var marker_fd5d1a164a5fc9852219399ced15b37a = L.marker(
+                [41.895669, 12.472131],
+                {}
+            ).addTo(map_0e73349f299a4a153c05ed83357d448d);
+        
+    
+            var div_icon_4793c493f1405f62817c86ad28499e2c = L.divIcon({"className": "empty", "html": "\u003cdiv style=\u0027background-color: white; padding: 3px; border: 1px solid black;\u0027\u003e2. Campo de\u0027 Fiori\u003c/div\u003e", "iconAnchor": [0, 0], "iconSize": [150, 36]});
+            marker_fd5d1a164a5fc9852219399ced15b37a.setIcon(div_icon_4793c493f1405f62817c86ad28499e2c);
+        
+    
+        var popup_60c5475069009e800441dd7869f5f658 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_79838b713631c323625da7d4c9cfb590 = $(`<div id="html_79838b713631c323625da7d4c9cfb590" style="width: 100.0%; height: 100.0%;"><img src="https://upload.wikimedia.org/wikipedia/commons/c/cd/Brunostatue.jpg" width="200" height="auto"><p></p><a href="https://maps.apple.com/?address=Piazza%20Campo%20de'%20Fiori,%2000186%20Rome,%20Italy&auid=5902327960677254953&ll=41.895669,12.472131&lsp=9902&q=Campo%20de%20Fiori" target="_blank">https://maps.apple.com/?address=Piazza%20Campo%20de'%20Fiori,%2000186%20Rome,%20Italy&auid=5902327960677254953&ll=41.895669,12.472131&lsp=9902&q=Campo%20de%20Fiori</a><br>Visit the bustling market during the day and enjoy the lively atmosphere of bars and restaurants at night.</div>`)[0];
+                popup_60c5475069009e800441dd7869f5f658.setContent(html_79838b713631c323625da7d4c9cfb590);
+            
+        
+
+        marker_fd5d1a164a5fc9852219399ced15b37a.bindPopup(popup_60c5475069009e800441dd7869f5f658)
+        ;
+
+        
+    
+    
+            var marker_553dae46601ebc2cebdd0759023e5e6a = L.marker(
+                [41.895956, 12.482278],
+                {}
+            ).addTo(map_0e73349f299a4a153c05ed83357d448d);
+        
+    
+            var div_icon_82073a5fa27245a2961676a121e05871 = L.divIcon({"className": "empty", "html": "\u003cdiv style=\u0027background-color: white; padding: 3px; border: 1px solid black;\u0027\u003e3. Piazza Venezia\u003c/div\u003e", "iconAnchor": [0, 0], "iconSize": [150, 36]});
+            marker_553dae46601ebc2cebdd0759023e5e6a.setIcon(div_icon_82073a5fa27245a2961676a121e05871);
+        
+    
+        var popup_0cdf43dcdf76a91793389f447232c227 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_cc8b11ac038c626cb2a36f047a489660 = $(`<div id="html_cc8b11ac038c626cb2a36f047a489660" style="width: 100.0%; height: 100.0%;"><img src="https://upload.wikimedia.org/wikipedia/commons/e/e1/Flag_of_Lazio.svg" width="200" height="auto"><p></p><a href="https://maps.apple.com/?address=Piazza%20Venezia,%2000187%20Rome,%20Italy&auid=4216665781283371329&ll=41.895956,12.482278&lsp=9902&q=Piazza%20Venezia" target="_blank">https://maps.apple.com/?address=Piazza%20Venezia,%2000187%20Rome,%20Italy&auid=4216665781283371329&ll=41.895956,12.482278&lsp=9902&q=Piazza%20Venezia</a><br>Admire the impressive Vittoriano monument and enjoy the panoramic views from the terrace.</div>`)[0];
+                popup_0cdf43dcdf76a91793389f447232c227.setContent(html_cc8b11ac038c626cb2a36f047a489660);
+            
+        
+
+        marker_553dae46601ebc2cebdd0759023e5e6a.bindPopup(popup_0cdf43dcdf76a91793389f447232c227)
+        ;
+
+        
+    
+    
+            var marker_09bc1b91efb16721edaa19da34dce31a = L.marker(
+                [41.903066, 12.466275],
+                {}
+            ).addTo(map_0e73349f299a4a153c05ed83357d448d);
+        
+    
+            var div_icon_ac1435a22c32ce0eb0a4838113f23eb2 = L.divIcon({"className": "empty", "html": "\u003cdiv style=\u0027background-color: white; padding: 3px; border: 1px solid black;\u0027\u003e4. Castel Sant\u0027Angelo\u003c/div\u003e", "iconAnchor": [0, 0], "iconSize": [150, 36]});
+            marker_09bc1b91efb16721edaa19da34dce31a.setIcon(div_icon_ac1435a22c32ce0eb0a4838113f23eb2);
+        
+    
+        var popup_20e847802bee09e6da459e06bf4023f6 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a5f68b9436f986c6e07d74ee8d136e71 = $(`<div id="html_a5f68b9436f986c6e07d74ee8d136e71" style="width: 100.0%; height: 100.0%;"><img src="https://upload.wikimedia.org/wikipedia/commons/a/a0/Angel_atop_Castel_Sant%27Angelo.jpg" width="200" height="auto"><p></p><a href="https://maps.apple.com/?address=Lungotevere%20Castello%2050,%2000186%20Rome,%20Italy&auid=6885627286181042544&ll=41.903066,12.466275&lsp=9902&q=Castel%20Sant'Angelo" target="_blank">https://maps.apple.com/?address=Lungotevere%20Castello%2050,%2000186%20Rome,%20Italy&auid=6885627286181042544&ll=41.903066,12.466275&lsp=9902&q=Castel%20Sant'Angelo</a><br>Explore this historic castle, former mausoleum, and papal fortress, offering stunning views of Rome.</div>`)[0];
+                popup_20e847802bee09e6da459e06bf4023f6.setContent(html_a5f68b9436f986c6e07d74ee8d136e71);
+            
+        
+
+        marker_09bc1b91efb16721edaa19da34dce31a.bindPopup(popup_20e847802bee09e6da459e06bf4023f6)
+        ;
+
+        
+    
+    
+            var marker_7604135e628084940a08e5e0c7f30091 = L.marker(
+                [41.914009, 12.492267],
+                {}
+            ).addTo(map_0e73349f299a4a153c05ed83357d448d);
+        
+    
+            var div_icon_76e305ce064b7518d579bbdcd382da57 = L.divIcon({"className": "empty", "html": "\u003cdiv style=\u0027background-color: white; padding: 3px; border: 1px solid black;\u0027\u003e5. Galleria Borghese\u003c/div\u003e", "iconAnchor": [0, 0], "iconSize": [150, 36]});
+            marker_7604135e628084940a08e5e0c7f30091.setIcon(div_icon_76e305ce064b7518d579bbdcd382da57);
+        
+    
+        var popup_eb1183fac20226490d2d3fa307038b15 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_8bf36b8ac4d00fa84401a299ea2da3d7 = $(`<div id="html_8bf36b8ac4d00fa84401a299ea2da3d7" style="width: 100.0%; height: 100.0%;"><img src="https://upload.wikimedia.org/wikipedia/commons/9/90/Amazon_with_barbarian_and_Greek%2C_Roman%2C_detail%2C_c._160_AD%2C_marble_-_Galleria_Borghese_-_Rome%2C_Italy_-_DSC04659.jpg" width="200" height="auto"><p></p><a href="https://maps.apple.com/?address=Piazzale%20Scipione%20Borghese%205,%2000187%20Rome,%20Italy&auid=13886106720089064828&ll=41.914009,12.492267&lsp=9902&q=Galleria%20Borghese" target="_blank">https://maps.apple.com/?address=Piazzale%20Scipione%20Borghese%205,%2000187%20Rome,%20Italy&auid=13886106720089064828&ll=41.914009,12.492267&lsp=9902&q=Galleria%20Borghese</a><br>Visit this impressive art gallery, housing masterpieces by Bernini, Caravaggio, and Titian.</div>`)[0];
+                popup_eb1183fac20226490d2d3fa307038b15.setContent(html_8bf36b8ac4d00fa84401a299ea2da3d7);
+            
+        
+
+        marker_7604135e628084940a08e5e0c7f30091.bindPopup(popup_eb1183fac20226490d2d3fa307038b15)
+        ;
+
+        
+    
+    
+            var marker_e10eb308aecece029b3eab2a099194c8 = L.marker(
+                [41.910676, 12.476124],
+                {}
+            ).addTo(map_0e73349f299a4a153c05ed83357d448d);
+        
+    
+            var div_icon_3e81af1da102ce3acb2c24fb21c0608c = L.divIcon({"className": "empty", "html": "\u003cdiv style=\u0027background-color: white; padding: 3px; border: 1px solid black;\u0027\u003e6. Piazza del Popolo\u003c/div\u003e", "iconAnchor": [0, 0], "iconSize": [150, 36]});
+            marker_e10eb308aecece029b3eab2a099194c8.setIcon(div_icon_3e81af1da102ce3acb2c24fb21c0608c);
+        
+    
+        var popup_db60ddb8cf4b9bbebef541daa307c8be = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_12c58f318c71f20f1eba80c61b5651dc = $(`<div id="html_12c58f318c71f20f1eba80c61b5651dc" style="width: 100.0%; height: 100.0%;"><img src="https://upload.wikimedia.org/wikipedia/commons/3/3a/Fontana_del_Nettuno%2C_Piazza_del_Popolo.jpg" width="200" height="auto"><p></p><a href="https://maps.apple.com/?address=Piazza%20del%20Popolo,%2000187%20Rome,%20Italy&auid=12299750399393289935&ll=41.910676,12.476124&lsp=9902&q=Piazza%20del%20Popolo" target="_blank">https://maps.apple.com/?address=Piazza%20del%20Popolo,%2000187%20Rome,%20Italy&auid=12299750399393289935&ll=41.910676,12.476124&lsp=9902&q=Piazza%20del%20Popolo</a><br>Admire the beautiful churches, fountains, and statues in this large public square.</div>`)[0];
+                popup_db60ddb8cf4b9bbebef541daa307c8be.setContent(html_12c58f318c71f20f1eba80c61b5651dc);
+            
+        
+
+        marker_e10eb308aecece029b3eab2a099194c8.bindPopup(popup_db60ddb8cf4b9bbebef541daa307c8be)
+        ;
+
+        
+    
+    
+            var marker_7eb704dd989206651e77546dc0c5f69d = L.marker(
+                [41.875743, 12.474878],
+                {}
+            ).addTo(map_0e73349f299a4a153c05ed83357d448d);
+        
+    
+            var div_icon_32c4124e07a3ae202deb7643d5777509 = L.divIcon({"className": "empty", "html": "\u003cdiv style=\u0027background-color: white; padding: 3px; border: 1px solid black;\u0027\u003e7. Testaccio\u003c/div\u003e", "iconAnchor": [0, 0], "iconSize": [150, 36]});
+            marker_7eb704dd989206651e77546dc0c5f69d.setIcon(div_icon_32c4124e07a3ae202deb7643d5777509);
+        
+    
+        var popup_bdf9f298ae661137767f8e79640d719c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b98cad5b5a8b6eb3b1fe6d77554ee005 = $(`<div id="html_b98cad5b5a8b6eb3b1fe6d77554ee005" style="width: 100.0%; height: 100.0%;"><img src="https://upload.wikimedia.org/wikipedia/commons/e/e9/Archaeological_site_icon_%28red%29.svg" width="200" height="auto"><p></p><a href="https://maps.apple.com/?address=Testaccio,%20Rome,%20Italy&auid=3837652661046352610&ll=41.875743,12.474878&lsp=6489&q=Testaccio" target="_blank">https://maps.apple.com/?address=Testaccio,%20Rome,%20Italy&auid=3837652661046352610&ll=41.875743,12.474878&lsp=6489&q=Testaccio</a><br>Discover this authentic Roman neighborhood, known for its food markets and nightlife.</div>`)[0];
+                popup_bdf9f298ae661137767f8e79640d719c.setContent(html_b98cad5b5a8b6eb3b1fe6d77554ee005);
+            
+        
+
+        marker_7eb704dd989206651e77546dc0c5f69d.bindPopup(popup_bdf9f298ae661137767f8e79640d719c)
+        ;
+
+        
+    
+    
+            var poly_line_2e79f628717f482a74d12130ec0acf30 = L.polyline(
+                [[41.887348, 12.478333], [41.895669, 12.472131], [41.895956, 12.482278], [41.903066, 12.466275], [41.914009, 12.492267], [41.910676, 12.476124], [41.875743, 12.474878]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.7, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_0e73349f299a4a153c05ed83357d448d);
+        
+    
+            poly_line_2e79f628717f482a74d12130ec0acf30.setText(
+                "\u003e\u003e\u003e",
+                {"below": false, "center": true, "fontSize": 14, "offset": 0, "orientation": 0, "repeat": true, "textOpacity": 0}
+            );
+        
+</script>
+</html>
