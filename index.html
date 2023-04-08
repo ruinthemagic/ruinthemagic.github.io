@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -10,74 +11,101 @@
             margin: 0;
             padding: 0;
         }
+
         header {
             background-color: #f1f1f1;
             padding: 20px;
             text-align: center;
         }
+
         table {
             border-collapse: collapse;
             width: 100%;
             margin-bottom: 30px;
         }
-        th, td {
+
+        th,
+        td {
             border: 1px solid #ddd;
             padding: 8px;
             text-align: left;
         }
+
         th {
             background-color: #f2f2f2;
         }
+
         tr:nth-child(even) {
             background-color: #f2f2f2;
         }
+
         tr:hover {
             background-color: #ddd;
         }
+
         a {
             text-decoration: none;
             color: #0066cc;
         }
+
         a:hover {
             text-decoration: underline;
         }
+
         @media screen and (max-width: 600px) {
-            table, th, td {
+
+            table,
+            th,
+            td {
                 font-size: 14px;
             }
         }
+
+        .table-container {
+            overflow-x: auto;
+            max-width: 100%;
+        }
     </style>
 </head>
+
 <body>
     <header>
         <h1>My Rome Itinerary</h1>
     </header>
     <main>
         <!-- Add the table for each day -->
+        <iframe src="summary_map.html" width="95%" height="400" frameborder="0"></iframe>
+
+
         <h2>Day 1</h2>
-        <table>
-            <thead>
-                <tr>
-                    <th>Name</th>
-                    <th>Coordinates</th>
-                    <th>URL</th>
-                    <th>Other</th>
-                    <th>Map</th>
-                </tr>
-            </thead>
-            <tbody>
-                <!-- Add a row for each point of interest -->
-                <tr>
-                    <td>Piazza della Repubblica</td>
-                    <td>41.90270, 12.49623</td>
-                    <td><a href="https://www.example.com/piazza_della_repubblica" target="_blank">https://www.example.com/piazza_della_repubblica</a></td>
-                    <td>Other information</td>
-                    <td><a href="Day_1.html" target="_blank">Day 1 Map</a></td>
-                </tr>
-                <!-- Add more rows as needed -->
-            </tbody>
-        </table>
+        <div class=""table-container>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Name</th>
+                        <th>Coordinates</th>
+                        <th>URL</th>
+                        <th>Other</th>
+                        <th>Map</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <!-- Add a row for each point of interest -->
+                    <tr>
+                        <td>Piazza della Repubblica</td>
+                        <td>41.90270, 12.49623</td>
+                        <td><a href="https://www.example.com/piazza_della_repubblica"
+                                target="_blank">https://www.example.com/piazza_della_repubblica</a></td>
+                        <td>Other information</td>
+                        <td><a href="Day_1.html" target="_blank">Day 1 Map</a></td>
+                    </tr>
+                    <!-- Add more rows as needed -->
+                </tbody>
+            </table>
+        </div>
+
         <!-- Add more tables for other days -->
     </main>
 </body>
+
 </html>
