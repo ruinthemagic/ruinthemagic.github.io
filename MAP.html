@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_3e3d58189f95a7d0d5d83a0dece6e8ee {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+    <script src="https://cdn.jsdelivr.net/npm/leaflet-textpath@1.2.3/leaflet.textpath.min.js"></script>
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_3e3d58189f95a7d0d5d83a0dece6e8ee" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_3e3d58189f95a7d0d5d83a0dece6e8ee = L.map(
+                "map_3e3d58189f95a7d0d5d83a0dece6e8ee",
+                {
+                    center: [41.903148, 12.453801],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 13,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_e42bf928586562b836baf5f5ca124156 = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca target=\"_blank\" href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca target=\"_blank\" href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_3e3d58189f95a7d0d5d83a0dece6e8ee);
+        
+    
+            var marker_e594dbdc50ee797723bb2d09c0045c3d = L.marker(
+                [41.903148, 12.453801],
+                {}
+            ).addTo(map_3e3d58189f95a7d0d5d83a0dece6e8ee);
+        
+    
+            var div_icon_712498a730483366ebe4f494f441adfb = L.divIcon({"className": "empty", "html": "\u003cdiv style=\u0027background-color: white; padding: 3px; border: 1px solid black;\u0027\u003e1. Vatican City\u003c/div\u003e", "iconAnchor": [0, 0], "iconSize": [150, 36]});
+            marker_e594dbdc50ee797723bb2d09c0045c3d.setIcon(div_icon_712498a730483366ebe4f494f441adfb);
+        
+    
+        var popup_0a9529de0c7bd0dbcea139cb45fccf28 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_8f77091d41ce1d019a4a9eff0d91e76f = $(`<div id="html_8f77091d41ce1d019a4a9eff0d91e76f" style="width: 100.0%; height: 100.0%;"><img src="https://upload.wikimedia.org/wikipedia/commons/5/5a/046CupolaSPietro.jpg" width="200" height="auto"><p></p><a href="https://maps.apple.com/?address=Vatican%20City&auid=17185756436112283097&ll=41.903148,12.453801&lsp=6489&q=Vatican%20City" target="_blank">https://maps.apple.com/?address=Vatican%20City&auid=17185756436112283097&ll=41.903148,12.453801&lsp=6489&q=Vatican%20City</a><br>Visit the center of the Catholic Church, including St. Peter's Basilica, the Vatican Museums, and the Sistine Chapel.</div>`)[0];
+                popup_0a9529de0c7bd0dbcea139cb45fccf28.setContent(html_8f77091d41ce1d019a4a9eff0d91e76f);
+            
+        
+
+        marker_e594dbdc50ee797723bb2d09c0045c3d.bindPopup(popup_0a9529de0c7bd0dbcea139cb45fccf28)
+        ;
+
+        
+    
+    
+            var poly_line_32da1b7d08f51571dec4c1685cec01c7 = L.polyline(
+                [[41.903148, 12.453801]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.7, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_3e3d58189f95a7d0d5d83a0dece6e8ee);
+        
+    
+            poly_line_32da1b7d08f51571dec4c1685cec01c7.setText(
+                "\u003e\u003e\u003e",
+                {"below": false, "center": true, "fontSize": 14, "offset": 0, "orientation": 0, "repeat": true, "textOpacity": 0}
+            );
+        
+</script>
+</html>

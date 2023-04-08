@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_627053c4d4b16a329c196e34caa54eda {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+    <script src="https://cdn.jsdelivr.net/npm/leaflet-textpath@1.2.3/leaflet.textpath.min.js"></script>
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_627053c4d4b16a329c196e34caa54eda" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_627053c4d4b16a329c196e34caa54eda = L.map(
+                "map_627053c4d4b16a329c196e34caa54eda",
+                {
+                    center: [41.890261, 12.492305],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 13,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_35b08ccb4c9756e8a97117689187fe0a = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca target=\"_blank\" href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca target=\"_blank\" href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_627053c4d4b16a329c196e34caa54eda);
+        
+    
+            var marker_f888669279e3c3f2b1df8afa365ab826 = L.marker(
+                [41.890261, 12.492305],
+                {}
+            ).addTo(map_627053c4d4b16a329c196e34caa54eda);
+        
+    
+            var div_icon_14ad9a61e6f888be65d3d26157c3d7d8 = L.divIcon({"className": "empty", "html": "\u003cdiv style=\u0027background-color: white; padding: 3px; border: 1px solid black;\u0027\u003e1. Colosseum\u003c/div\u003e", "iconAnchor": [0, 0], "iconSize": [150, 36]});
+            marker_f888669279e3c3f2b1df8afa365ab826.setIcon(div_icon_14ad9a61e6f888be65d3d26157c3d7d8);
+        
+    
+        var popup_91b5296db4bdb7be04ea06bb6a782f85 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e303444f5e62d2a2730947b2e13b40e2 = $(`<div id="html_e303444f5e62d2a2730947b2e13b40e2" style="width: 100.0%; height: 100.0%;"><img src="https://upload.wikimedia.org/wikipedia/commons/5/5a/046CupolaSPietro.jpg" width="200" height="auto"><p></p><a href="https://maps.apple.com/?address=Piazza%20del%20Colosseo,%2000184%20Rome,%20Italy&auid=4627489288505026752&ll=41.890261,12.492305&lsp=9902&q=Colosseum" target="_blank">https://maps.apple.com/?address=Piazza%20del%20Colosseo,%2000184%20Rome,%20Italy&auid=4627489288505026752&ll=41.890261,12.492305&lsp=9902&q=Colosseum</a><br>Visit the iconic ancient Roman amphitheater, where gladiatorial games were held.</div>`)[0];
+                popup_91b5296db4bdb7be04ea06bb6a782f85.setContent(html_e303444f5e62d2a2730947b2e13b40e2);
+            
+        
+
+        marker_f888669279e3c3f2b1df8afa365ab826.bindPopup(popup_91b5296db4bdb7be04ea06bb6a782f85)
+        ;
+
+        
+    
+    
+            var marker_f6dae0be2aa49dee1be6f8e473743b81 = L.marker(
+                [41.892466, 12.485246],
+                {}
+            ).addTo(map_627053c4d4b16a329c196e34caa54eda);
+        
+    
+            var div_icon_9fbe1c98b7cd9de5c9a81252545917b5 = L.divIcon({"className": "empty", "html": "\u003cdiv style=\u0027background-color: white; padding: 3px; border: 1px solid black;\u0027\u003e2. Roman Forum\u003c/div\u003e", "iconAnchor": [0, 0], "iconSize": [150, 36]});
+            marker_f6dae0be2aa49dee1be6f8e473743b81.setIcon(div_icon_9fbe1c98b7cd9de5c9a81252545917b5);
+        
+    
+        var popup_a63119abe210431ffde6189f1e8cfd81 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_208da60cd2095e300a16f89b81a28296 = $(`<div id="html_208da60cd2095e300a16f89b81a28296" style="width: 100.0%; height: 100.0%;"><img src="https://upload.wikimedia.org/wikipedia/commons/7/77/0_Basilique_Saint-Pierre_-_Rome_%282%29.JPG" width="200" height="auto"><p></p><a href="https://maps.apple.com/?address=Via%20della%20Salara%20Vecchia,%2053,%2000186%20Rome,%20Italy&auid=10298474429341536602&ll=41.892466,12.485246&lsp=9902&q=Roman%20Forum" target="_blank">https://maps.apple.com/?address=Via%20della%20Salara%20Vecchia,%2053,%2000186%20Rome,%20Italy&auid=10298474429341536602&ll=41.892466,12.485246&lsp=9902&q=Roman%20Forum</a><br>Explore the ruins of the heart of ancient Rome, featuring important temples and government buildings.</div>`)[0];
+                popup_a63119abe210431ffde6189f1e8cfd81.setContent(html_208da60cd2095e300a16f89b81a28296);
+            
+        
+
+        marker_f6dae0be2aa49dee1be6f8e473743b81.bindPopup(popup_a63119abe210431ffde6189f1e8cfd81)
+        ;
+
+        
+    
+    
+            var marker_b3658cdfafaa08bafd89bc64d4a5ba86 = L.marker(
+                [41.898635, 12.476873],
+                {}
+            ).addTo(map_627053c4d4b16a329c196e34caa54eda);
+        
+    
+            var div_icon_1664e7c63108735ebf81c1db2a523be5 = L.divIcon({"className": "empty", "html": "\u003cdiv style=\u0027background-color: white; padding: 3px; border: 1px solid black;\u0027\u003e3. Pantheon\u003c/div\u003e", "iconAnchor": [0, 0], "iconSize": [150, 36]});
+            marker_b3658cdfafaa08bafd89bc64d4a5ba86.setIcon(div_icon_1664e7c63108735ebf81c1db2a523be5);
+        
+    
+        var popup_77f24fd32912ea1399ffe010d3c482bc = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d063fad94db2e2a7b86783b659abd301 = $(`<div id="html_d063fad94db2e2a7b86783b659abd301" style="width: 100.0%; height: 100.0%;"><img src="https://upload.wikimedia.org/wikipedia/commons/5/5a/046CupolaSPietro.jpg" width="200" height="auto"><p></p><a href="https://maps.apple.com/?address=Piazza%20della%20Rotonda,%2000183%20Rome,%20Italy&auid=14654040496974768442&ll=41.898635,12.476873&lsp=9902&q=Pantheon" target="_blank">https://maps.apple.com/?address=Piazza%20della%20Rotonda,%2000183%20Rome,%20Italy&auid=14654040496974768442&ll=41.898635,12.476873&lsp=9902&q=Pantheon</a><br>Visit the best-preserved ancient Roman building, now a church, featuring a large domed ceiling.</div>`)[0];
+                popup_77f24fd32912ea1399ffe010d3c482bc.setContent(html_d063fad94db2e2a7b86783b659abd301);
+            
+        
+
+        marker_b3658cdfafaa08bafd89bc64d4a5ba86.bindPopup(popup_77f24fd32912ea1399ffe010d3c482bc)
+        ;
+
+        
+    
+    
+            var marker_f0b39820f360f8521df254d069331bc4 = L.marker(
+                [41.898934, 12.473084],
+                {}
+            ).addTo(map_627053c4d4b16a329c196e34caa54eda);
+        
+    
+            var div_icon_7d71352c61659142f2f5c454588f997b = L.divIcon({"className": "empty", "html": "\u003cdiv style=\u0027background-color: white; padding: 3px; border: 1px solid black;\u0027\u003e4. Piazza Navona\u003c/div\u003e", "iconAnchor": [0, 0], "iconSize": [150, 36]});
+            marker_f0b39820f360f8521df254d069331bc4.setIcon(div_icon_7d71352c61659142f2f5c454588f997b);
+        
+    
+        var popup_766c20c388b8d07edff7926ec2857f32 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_3f524aca3d5aa0ce71875ab29e950349 = $(`<div id="html_3f524aca3d5aa0ce71875ab29e950349" style="width: 100.0%; height: 100.0%;"><img src="https://upload.wikimedia.org/wikipedia/commons/0/03/Fontana_del_Moro%2C_Piazza_Navona.jpg" width="200" height="auto"><p></p><a href="https://maps.apple.com/?address=Piazza%20Navona,%2000186%20Rome,%20Italy&auid=3878702041843045489&ll=41.898934,12.473084&lsp=9902&q=Piazza%20Navona" target="_blank">https://maps.apple.com/?address=Piazza%20Navona,%2000186%20Rome,%20Italy&auid=3878702041843045489&ll=41.898934,12.473084&lsp=9902&q=Piazza%20Navona</a><br>Stroll through this beautiful baroque square, home to the famous Fountain of the Four Rivers.</div>`)[0];
+                popup_766c20c388b8d07edff7926ec2857f32.setContent(html_3f524aca3d5aa0ce71875ab29e950349);
+            
+        
+
+        marker_f0b39820f360f8521df254d069331bc4.bindPopup(popup_766c20c388b8d07edff7926ec2857f32)
+        ;
+
+        
+    
+    
+            var marker_6a19cd37933d9317a1cb5c730139800a = L.marker(
+                [41.905994, 12.482276],
+                {}
+            ).addTo(map_627053c4d4b16a329c196e34caa54eda);
+        
+    
+            var div_icon_fea335818c58b4ca7cc7271e913409c1 = L.divIcon({"className": "empty", "html": "\u003cdiv style=\u0027background-color: white; padding: 3px; border: 1px solid black;\u0027\u003e5. Spanish Steps\u003c/div\u003e", "iconAnchor": [0, 0], "iconSize": [150, 36]});
+            marker_6a19cd37933d9317a1cb5c730139800a.setIcon(div_icon_fea335818c58b4ca7cc7271e913409c1);
+        
+    
+        var popup_97024c57091f241d39c688071935ca23 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_bee89e3c944b534a79e1c1905edc15db = $(`<div id="html_bee89e3c944b534a79e1c1905edc15db" style="width: 100.0%; height: 100.0%;"><img src="https://upload.wikimedia.org/wikipedia/commons/f/fb/Audrey_Hepburn_and_Gregory_Peck_in_Roman_Holiday_trailer_2.jpg" width="200" height="auto"><p></p><a href="https://maps.apple.com/?address=Piazza%20di%20Spagna,%2000187%20Rome,%20Italy&auid=8210130261811688366&ll=41.905994,12.482276&lsp=9902&q=Spanish%20Steps" target="_blank">https://maps.apple.com/?address=Piazza%20di%20Spagna,%2000187%20Rome,%20Italy&auid=8210130261811688366&ll=41.905994,12.482276&lsp=9902&q=Spanish%20Steps</a><br>Climb the iconic staircase and enjoy the surrounding high-end shops and cafes.</div>`)[0];
+                popup_97024c57091f241d39c688071935ca23.setContent(html_bee89e3c944b534a79e1c1905edc15db);
+            
+        
+
+        marker_6a19cd37933d9317a1cb5c730139800a.bindPopup(popup_97024c57091f241d39c688071935ca23)
+        ;
+
+        
+    
+    
+            var marker_e9e81ca31d6514a7031cb9ff4e43344e = L.marker(
+                [41.904641, 12.504386],
+                {}
+            ).addTo(map_627053c4d4b16a329c196e34caa54eda);
+        
+    
+            var div_icon_41ff7ea8b95720bb6aee50e38f1430df = L.divIcon({"className": "empty", "html": "\u003cdiv style=\u0027background-color: white; padding: 3px; border: 1px solid black;\u0027\u003e6. YellowSquare (accommodation)\u003c/div\u003e", "iconAnchor": [0, 0], "iconSize": [150, 36]});
+            marker_e9e81ca31d6514a7031cb9ff4e43344e.setIcon(div_icon_41ff7ea8b95720bb6aee50e38f1430df);
+        
+    
+        var popup_ee6fb74e0b75b85373d2c6e53f88fb93 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_07b9e5baec1a02ad02ce986b5cde8524 = $(`<div id="html_07b9e5baec1a02ad02ce986b5cde8524" style="width: 100.0%; height: 100.0%;"><img src="https://upload.wikimedia.org/wikipedia/commons/d/d6/0209tordeiconti.png" width="200" height="auto"><p></p><a href="https://maps.apple.com/?address=Via%20Palestro%2051,%2000185%20Rome,%20Italy&auid=12208839912856235995&ll=41.904641,12.504386&lsp=9902&q=YellowSquare" target="_blank">https://maps.apple.com/?address=Via%20Palestro%2051,%2000185%20Rome,%20Italy&auid=12208839912856235995&ll=41.904641,12.504386&lsp=9902&q=YellowSquare</a><br>nan</div>`)[0];
+                popup_ee6fb74e0b75b85373d2c6e53f88fb93.setContent(html_07b9e5baec1a02ad02ce986b5cde8524);
+            
+        
+
+        marker_e9e81ca31d6514a7031cb9ff4e43344e.bindPopup(popup_ee6fb74e0b75b85373d2c6e53f88fb93)
+        ;
+
+        
+    
+    
+            var poly_line_667f3575f8bddd5fb190a95cdd33dfe0 = L.polyline(
+                [[41.890261, 12.492305], [41.892466, 12.485246], [41.898635, 12.476873], [41.898934, 12.473084], [41.905994, 12.482276], [41.904641, 12.504386]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.7, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_627053c4d4b16a329c196e34caa54eda);
+        
+    
+            poly_line_667f3575f8bddd5fb190a95cdd33dfe0.setText(
+                "\u003e\u003e\u003e",
+                {"below": false, "center": true, "fontSize": 14, "offset": 0, "orientation": 0, "repeat": true, "textOpacity": 0}
+            );
+        
+</script>
+</html>
