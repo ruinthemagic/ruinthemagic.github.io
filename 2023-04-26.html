@@ -25,7 +25,7 @@
             <meta name="viewport" content="width=device-width,
                 initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
             <style>
-                #map_ca172f01319919bcd0e368d2e79e720b {
+                #map_00234cfdcd698e59aa42ab19abb2728f {
                     position: relative;
                     width: 100.0%;
                     height: 100.0%;
@@ -40,14 +40,14 @@
 <body>
     
     
-            <div class="folium-map" id="map_ca172f01319919bcd0e368d2e79e720b" ></div>
+            <div class="folium-map" id="map_00234cfdcd698e59aa42ab19abb2728f" ></div>
         
 </body>
 <script>
     
     
-            var map_ca172f01319919bcd0e368d2e79e720b = L.map(
-                "map_ca172f01319919bcd0e368d2e79e720b",
+            var map_00234cfdcd698e59aa42ab19abb2728f = L.map(
+                "map_00234cfdcd698e59aa42ab19abb2728f",
                 {
                     center: [41.859014, 12.510563],
                     crs: L.CRS.EPSG3857,
@@ -61,146 +61,157 @@
 
         
     
-            var tile_layer_8f524e4a7b9dd47524f602bf349d4580 = L.tileLayer(
+            var tile_layer_61942f567961e58ae3651436c17f3fae = L.tileLayer(
                 "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
                 {"attribution": "Data by \u0026copy; \u003ca target=\"_blank\" href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca target=\"_blank\" href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
-            ).addTo(map_ca172f01319919bcd0e368d2e79e720b);
+            ).addTo(map_00234cfdcd698e59aa42ab19abb2728f);
         
     
-            var marker_b3d12f10b482c63f89ccf7e05a689e25 = L.marker(
+            var feature_group_6e5ad6c19e8e8d3af1280ca42f2eda45 = L.featureGroup(
+                {}
+            ).addTo(map_00234cfdcd698e59aa42ab19abb2728f);
+        
+    
+            var marker_db5c8ced3d8af59acfb0859510b3a18b = L.marker(
                 [41.859014, 12.510563],
                 {}
-            ).addTo(map_ca172f01319919bcd0e368d2e79e720b);
+            ).addTo(feature_group_6e5ad6c19e8e8d3af1280ca42f2eda45);
         
     
-            var div_icon_4374e0b8e9cb7fc4cb66ac0f7fd8fe03 = L.divIcon({"className": "empty", "html": "\u003cdiv style=\u0027background-color: white; padding: 3px; border: 1px solid black;\u0027\u003e1. Parco Regionale dell\u0027Appia Antica\u003c/div\u003e", "iconAnchor": [0, 0], "iconSize": [150, 36]});
-            marker_b3d12f10b482c63f89ccf7e05a689e25.setIcon(div_icon_4374e0b8e9cb7fc4cb66ac0f7fd8fe03);
+            var div_icon_f12fdfc61197ad9b6fccbea89f21a9ab = L.divIcon({"className": "empty", "html": "\u003cdiv style=\u0027background-color: white; padding: 3px; border: 1px solid black;\u0027\u003e1. Parco Regionale dell\u0027Appia Antica\u003c/div\u003e", "iconAnchor": [0, 0], "iconSize": [150, 36]});
+            marker_db5c8ced3d8af59acfb0859510b3a18b.setIcon(div_icon_f12fdfc61197ad9b6fccbea89f21a9ab);
         
     
-        var popup_a9303fc610177a3bdbdf8085dea3dac1 = L.popup({"maxWidth": "100%"});
+        var popup_6ec472461f3294c511404c9a081119ff = L.popup({"maxWidth": "100%"});
 
         
             
-                var html_3748e792523ec896ec002dfd08e5107d = $(`<div id="html_3748e792523ec896ec002dfd08e5107d" style="width: 100.0%; height: 100.0%;"><p></p><a href="https://maps.apple.com/?address=Via%20Appia%20Antica%20110,%2000179%20Rome,%20Italy&auid=14687202249467704460&ll=41.859014,12.510563&lsp=9902&q=Catacombs%20of%20St.%20Callixtus" target="_blank">https://maps.apple.com/?address=Via%20Appia%20Antica%20110,%2000179%20Rome,%20Italy&auid=14687202249467704460&ll=41.859014,12.510563&lsp=9902&q=Catacombs%20of%20St.%20Callixtus</a><br>Explore these ancient Christian catacombs, featuring intricate frescoes and burial chambers.</div>`)[0];
-                popup_a9303fc610177a3bdbdf8085dea3dac1.setContent(html_3748e792523ec896ec002dfd08e5107d);
+                var html_36aa8c71b628294627d80a5a6511620a = $(`<div id="html_36aa8c71b628294627d80a5a6511620a" style="width: 100.0%; height: 100.0%;"><img src="https://upload.wikimedia.org/wikipedia/commons/1/1a/Rossini_-_viaggio_pittoresco_tav19_-_veduta_di_Roma_vecchia.jpg" width="200" height="auto"><p></p><a href="https://maps.apple.com/?address=Via%20Appia%20Antica%20110,%2000179%20Rome,%20Italy&auid=14687202249467704460&ll=41.859014,12.510563&lsp=9902&q=Catacombs%20of%20St.%20Callixtus" target="_blank">Parco Regionale dell'Appia Antica, Via Appia Antica 110, 00179 Rome Lazio, Italy</a><br>No notes</div>`)[0];
+                popup_6ec472461f3294c511404c9a081119ff.setContent(html_36aa8c71b628294627d80a5a6511620a);
             
         
 
-        marker_b3d12f10b482c63f89ccf7e05a689e25.bindPopup(popup_a9303fc610177a3bdbdf8085dea3dac1)
+        marker_db5c8ced3d8af59acfb0859510b3a18b.bindPopup(popup_6ec472461f3294c511404c9a081119ff)
         ;
 
         
     
     
-            var marker_7c295e8bf7fa0d748ace5c574dd4f360 = L.marker(
+            var marker_a745a257d5286f5476f735ba1ddfd639 = L.marker(
                 [41.928304, 12.466811],
                 {}
-            ).addTo(map_ca172f01319919bcd0e368d2e79e720b);
+            ).addTo(feature_group_6e5ad6c19e8e8d3af1280ca42f2eda45);
         
     
-            var div_icon_dcaee3fa926e500d912ce9d2a811083c = L.divIcon({"className": "empty", "html": "\u003cdiv style=\u0027background-color: white; padding: 3px; border: 1px solid black;\u0027\u003e2. MAXXI Museo nazionale delle arti del XXI secolo\u003c/div\u003e", "iconAnchor": [0, 0], "iconSize": [150, 36]});
-            marker_7c295e8bf7fa0d748ace5c574dd4f360.setIcon(div_icon_dcaee3fa926e500d912ce9d2a811083c);
+            var div_icon_f45026d2b94b57ab71e56ca3f510a186 = L.divIcon({"className": "empty", "html": "\u003cdiv style=\u0027background-color: white; padding: 3px; border: 1px solid black;\u0027\u003e2. MAXXI Museo nazionale delle arti del XXI secolo\u003c/div\u003e", "iconAnchor": [0, 0], "iconSize": [150, 36]});
+            marker_a745a257d5286f5476f735ba1ddfd639.setIcon(div_icon_f45026d2b94b57ab71e56ca3f510a186);
         
     
-        var popup_0b5f4ef81c30603a610b9b2f1241044d = L.popup({"maxWidth": "100%"});
+        var popup_53c605716a859d6c3baaf809138c6048 = L.popup({"maxWidth": "100%"});
 
         
             
-                var html_af9b2b77e6c3e305a92a6103412c70eb = $(`<div id="html_af9b2b77e6c3e305a92a6103412c70eb" style="width: 100.0%; height: 100.0%;"><img src="https://upload.wikimedia.org/wikipedia/commons/b/bf/MAXXI_ingresso_04.jpg" width="200" height="auto"><p></p><a href="https://maps.apple.com/?address=Via%20Guido%20Reni%204A,%2000196%20Rome,%20Italy&auid=2337509674309640549&ll=41.928304,12.466811&lsp=9902&q=MAXXI%20Museo%20nazionale%20delle%20arti%20del%20XXI%20secolo" target="_blank">https://maps.apple.com/?address=Via%20Guido%20Reni%204A,%2000196%20Rome,%20Italy&auid=2337509674309640549&ll=41.928304,12.466811&lsp=9902&q=MAXXI%20Museo%20nazionale%20delle%20arti%20del%20XXI%20secolo</a><br>Discover contemporary art and architecture at this cutting-edge museum designed by Zaha Hadid.</div>`)[0];
-                popup_0b5f4ef81c30603a610b9b2f1241044d.setContent(html_af9b2b77e6c3e305a92a6103412c70eb);
+                var html_b86e9e9a02f3d0a4fed46755490ca139 = $(`<div id="html_b86e9e9a02f3d0a4fed46755490ca139" style="width: 100.0%; height: 100.0%;"><img src="https://upload.wikimedia.org/wikipedia/commons/b/bf/MAXXI_ingresso_04.jpg" width="200" height="auto"><p></p><a href="https://maps.apple.com/?address=Via%20Guido%20Reni%204A,%2000196%20Rome,%20Italy&auid=2337509674309640549&ll=41.928304,12.466811&lsp=9902&q=MAXXI%20Museo%20nazionale%20delle%20arti%20del%20XXI%20secolo" target="_blank">MAXXI Museo nazionale delle arti del XXI secolo, Via Guido Reni 6, 00196 Rome Lazio, Italy</a><br>No notes</div>`)[0];
+                popup_53c605716a859d6c3baaf809138c6048.setContent(html_b86e9e9a02f3d0a4fed46755490ca139);
             
         
 
-        marker_7c295e8bf7fa0d748ace5c574dd4f360.bindPopup(popup_0b5f4ef81c30603a610b9b2f1241044d)
+        marker_a745a257d5286f5476f735ba1ddfd639.bindPopup(popup_53c605716a859d6c3baaf809138c6048)
         ;
 
         
     
     
-            var marker_f95225d184c58c720921925467433559 = L.marker(
+            var marker_c66fa2c2bcb59e3e154a06fdd20f4fa7 = L.marker(
                 [41.882536, 12.477454],
                 {}
-            ).addTo(map_ca172f01319919bcd0e368d2e79e720b);
+            ).addTo(feature_group_6e5ad6c19e8e8d3af1280ca42f2eda45);
         
     
-            var div_icon_eef4d855256ebdce0d66570866200ddf = L.divIcon({"className": "empty", "html": "\u003cdiv style=\u0027background-color: white; padding: 3px; border: 1px solid black;\u0027\u003e3. Piazza dei Cavalieri di Malta 4\u003c/div\u003e", "iconAnchor": [0, 0], "iconSize": [150, 36]});
-            marker_f95225d184c58c720921925467433559.setIcon(div_icon_eef4d855256ebdce0d66570866200ddf);
+            var div_icon_3f7997059c27abbcdaef9a23f817d7cc = L.divIcon({"className": "empty", "html": "\u003cdiv style=\u0027background-color: white; padding: 3px; border: 1px solid black;\u0027\u003e3. Piazza dei Cavalieri di Malta 4\u003c/div\u003e", "iconAnchor": [0, 0], "iconSize": [150, 36]});
+            marker_c66fa2c2bcb59e3e154a06fdd20f4fa7.setIcon(div_icon_3f7997059c27abbcdaef9a23f817d7cc);
         
     
-        var popup_72a86d66560f22a5f4ea6824daed50a7 = L.popup({"maxWidth": "100%"});
+        var popup_9d07d56e5b7d1807b36e4fb4a0d3e4b3 = L.popup({"maxWidth": "100%"});
 
         
             
-                var html_dca5213028c063e463b133c7cb8eaa57 = $(`<div id="html_dca5213028c063e463b133c7cb8eaa57" style="width: 100.0%; height: 100.0%;"><img src="https://upload.wikimedia.org/wikipedia/commons/0/03/Fontana_del_Moro%2C_Piazza_Navona.jpg" width="200" height="auto"><p></p><a href="https://maps.apple.com/?address=Piazza%20dei%20Cavalieri%20di%20Malta%204,%2000153%20Rome,%20Italy&auid=18179952851401203821&ll=41.882536,12.477454&lsp=9902&q=Aventine%20Hill" target="_blank">https://maps.apple.com/?address=Piazza%20dei%20Cavalieri%20di%20Malta%204,%2000153%20Rome,%20Italy&auid=18179952851401203821&ll=41.882536,12.477454&lsp=9902&q=Aventine%20Hill</a><br>nan</div>`)[0];
-                popup_72a86d66560f22a5f4ea6824daed50a7.setContent(html_dca5213028c063e463b133c7cb8eaa57);
+                var html_f8e927b4ae39eb10dadd73bb3648e27a = $(`<div id="html_f8e927b4ae39eb10dadd73bb3648e27a" style="width: 100.0%; height: 100.0%;"><img src="https://upload.wikimedia.org/wikipedia/commons/0/03/Fontana_del_Moro%2C_Piazza_Navona.jpg" width="200" height="auto"><p></p><a href="https://maps.apple.com/?address=Piazza%20dei%20Cavalieri%20di%20Malta%204,%2000153%20Rome,%20Italy&auid=18179952851401203821&ll=41.882536,12.477454&lsp=9902&q=Aventine%20Hill" target="_blank">Piazza dei Cavalieri di Malta 4, 00153 Rome Lazio, Italy</a><br>No notes</div>`)[0];
+                popup_9d07d56e5b7d1807b36e4fb4a0d3e4b3.setContent(html_f8e927b4ae39eb10dadd73bb3648e27a);
             
         
 
-        marker_f95225d184c58c720921925467433559.bindPopup(popup_72a86d66560f22a5f4ea6824daed50a7)
+        marker_c66fa2c2bcb59e3e154a06fdd20f4fa7.bindPopup(popup_9d07d56e5b7d1807b36e4fb4a0d3e4b3)
         ;
 
         
     
     
-            var marker_7cd50130b021948a4f37689c4dc913a5 = L.marker(
+            var marker_02d0ca0a92adfb3e221cd00f9ebfb0a6 = L.marker(
                 [41.88505, 12.480394],
                 {}
-            ).addTo(map_ca172f01319919bcd0e368d2e79e720b);
+            ).addTo(feature_group_6e5ad6c19e8e8d3af1280ca42f2eda45);
         
     
-            var div_icon_182f49b07f0343b650e85e60661f2c0c = L.divIcon({"className": "empty", "html": "\u003cdiv style=\u0027background-color: white; padding: 3px; border: 1px solid black;\u0027\u003e4. Parco Savello - Giardino degli Aranci\u003c/div\u003e", "iconAnchor": [0, 0], "iconSize": [150, 36]});
-            marker_7cd50130b021948a4f37689c4dc913a5.setIcon(div_icon_182f49b07f0343b650e85e60661f2c0c);
+            var div_icon_005a55c663eedff2b75a5638c0317998 = L.divIcon({"className": "empty", "html": "\u003cdiv style=\u0027background-color: white; padding: 3px; border: 1px solid black;\u0027\u003e4. Parco Savello - Giardino degli Aranci\u003c/div\u003e", "iconAnchor": [0, 0], "iconSize": [150, 36]});
+            marker_02d0ca0a92adfb3e221cd00f9ebfb0a6.setIcon(div_icon_005a55c663eedff2b75a5638c0317998);
         
     
-        var popup_baba2cf988819046aac15af0f31f6947 = L.popup({"maxWidth": "100%"});
+        var popup_45f2e9d8ddcda932d317ee9e72cf7ed3 = L.popup({"maxWidth": "100%"});
 
         
             
-                var html_dc16dd6885e4496e76d5345de1ec2136 = $(`<div id="html_dc16dd6885e4496e76d5345de1ec2136" style="width: 100.0%; height: 100.0%;"><img src="https://upload.wikimedia.org/wikipedia/commons/e/e3/Ripa_-_giardino_degli_aranci_01.JPG" width="200" height="auto"><p></p><a href="https://maps.apple.com/?address=Piazza%20Pietro%20d'Illiria%202,%2000153%20Rome,%20Italy&auid=14876280753560390421&ll=41.885050,12.480394&lsp=9902&q=Parco%20Savello%20-%20Giardino%20degli%20Aranci" target="_blank">https://maps.apple.com/?address=Piazza%20Pietro%20d'Illiria%202,%2000153%20Rome,%20Italy&auid=14876280753560390421&ll=41.885050,12.480394&lsp=9902&q=Parco%20Savello%20-%20Giardino%20degli%20Aranci</a><br>nan</div>`)[0];
-                popup_baba2cf988819046aac15af0f31f6947.setContent(html_dc16dd6885e4496e76d5345de1ec2136);
+                var html_d059f6ed5ab6ab9e9bd598d3017bb13d = $(`<div id="html_d059f6ed5ab6ab9e9bd598d3017bb13d" style="width: 100.0%; height: 100.0%;"><img src="https://upload.wikimedia.org/wikipedia/commons/e/e3/Ripa_-_giardino_degli_aranci_01.JPG" width="200" height="auto"><p></p><a href="https://maps.apple.com/?address=Piazza%20Pietro%20d'Illiria%202,%2000153%20Rome,%20Italy&auid=14876280753560390421&ll=41.885050,12.480394&lsp=9902&q=Parco%20Savello%20-%20Giardino%20degli%20Aranci" target="_blank">Parco Savello - Giardino degli Aranci, Parco Savello 1, 00153 Rome Lazio, Italy</a><br>No notes</div>`)[0];
+                popup_45f2e9d8ddcda932d317ee9e72cf7ed3.setContent(html_d059f6ed5ab6ab9e9bd598d3017bb13d);
             
         
 
-        marker_7cd50130b021948a4f37689c4dc913a5.bindPopup(popup_baba2cf988819046aac15af0f31f6947)
+        marker_02d0ca0a92adfb3e221cd00f9ebfb0a6.bindPopup(popup_45f2e9d8ddcda932d317ee9e72cf7ed3)
         ;
 
         
     
     
-            var marker_d18cd582f592c840dbcdd2219fe7808c = L.marker(
+            var marker_58ae5a55271147787036c3ec03505e2b = L.marker(
                 [41.888717, 12.480753],
                 {}
-            ).addTo(map_ca172f01319919bcd0e368d2e79e720b);
+            ).addTo(feature_group_6e5ad6c19e8e8d3af1280ca42f2eda45);
         
     
-            var div_icon_e1ddfc9802283a5aec7086f549f7296c = L.divIcon({"className": "empty", "html": "\u003cdiv style=\u0027background-color: white; padding: 3px; border: 1px solid black;\u0027\u003e5. Mouth of Truth\u003c/div\u003e", "iconAnchor": [0, 0], "iconSize": [150, 36]});
-            marker_d18cd582f592c840dbcdd2219fe7808c.setIcon(div_icon_e1ddfc9802283a5aec7086f549f7296c);
+            var div_icon_a5c82888f4cd3be5fdd6d1ca40bb5b09 = L.divIcon({"className": "empty", "html": "\u003cdiv style=\u0027background-color: white; padding: 3px; border: 1px solid black;\u0027\u003e5. Mouth of Truth\u003c/div\u003e", "iconAnchor": [0, 0], "iconSize": [150, 36]});
+            marker_58ae5a55271147787036c3ec03505e2b.setIcon(div_icon_a5c82888f4cd3be5fdd6d1ca40bb5b09);
         
     
-        var popup_fb2244627eb08295ef9876b0625bdccd = L.popup({"maxWidth": "100%"});
+        var popup_b6af3d86a8f0a0d80ca0223ba398a0a5 = L.popup({"maxWidth": "100%"});
 
         
             
-                var html_3540d2f1b5a4ca4a4df98117fa59e81a = $(`<div id="html_3540d2f1b5a4ca4a4df98117fa59e81a" style="width: 100.0%; height: 100.0%;"><img src="https://upload.wikimedia.org/wikipedia/commons/f/f8/Audrey_Hepburn_and_Gregory_Peck_at_the_Mouth_of_Truth_Roman_Holiday_trailer.jpg" width="200" height="auto"><p></p><a href="https://maps.apple.com/?address=Piazza%20della%20Bocca%20della%20Verit%C3%A0%2018,%2000186%20Rome,%20Italy&auid=6616528538336048572&ll=41.888717,12.480753&lsp=9902&q=Mouth%20of%20Truth" target="_blank">https://maps.apple.com/?address=Piazza%20della%20Bocca%20della%20Verit%C3%A0%2018,%2000186%20Rome,%20Italy&auid=6616528538336048572&ll=41.888717,12.480753&lsp=9902&q=Mouth%20of%20Truth</a><br>nan</div>`)[0];
-                popup_fb2244627eb08295ef9876b0625bdccd.setContent(html_3540d2f1b5a4ca4a4df98117fa59e81a);
+                var html_11447d0f2b3ff70d84af3976ae7d38e9 = $(`<div id="html_11447d0f2b3ff70d84af3976ae7d38e9" style="width: 100.0%; height: 100.0%;"><img src="https://upload.wikimedia.org/wikipedia/commons/f/f8/Audrey_Hepburn_and_Gregory_Peck_at_the_Mouth_of_Truth_Roman_Holiday_trailer.jpg" width="200" height="auto"><p></p><a href="https://maps.apple.com/?address=Piazza%20della%20Bocca%20della%20Verit%C3%A0%2018,%2000186%20Rome,%20Italy&auid=6616528538336048572&ll=41.888717,12.480753&lsp=9902&q=Mouth%20of%20Truth" target="_blank">Mouth of Truth, 00186 Rome Lazio, Italy</a><br>No notes</div>`)[0];
+                popup_b6af3d86a8f0a0d80ca0223ba398a0a5.setContent(html_11447d0f2b3ff70d84af3976ae7d38e9);
             
         
 
-        marker_d18cd582f592c840dbcdd2219fe7808c.bindPopup(popup_fb2244627eb08295ef9876b0625bdccd)
+        marker_58ae5a55271147787036c3ec03505e2b.bindPopup(popup_b6af3d86a8f0a0d80ca0223ba398a0a5)
         ;
 
         
     
     
-            var poly_line_03198e8033014fa81d0b95478ecac8e8 = L.polyline(
+            var poly_line_a3030b60d725b7b36a123dc480e01290 = L.polyline(
                 [[41.859014, 12.510563], [41.928304, 12.466811], [41.882536, 12.477454], [41.88505, 12.480394], [41.888717, 12.480753]],
                 {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.7, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
-            ).addTo(map_ca172f01319919bcd0e368d2e79e720b);
+            ).addTo(map_00234cfdcd698e59aa42ab19abb2728f);
         
     
-            poly_line_03198e8033014fa81d0b95478ecac8e8.setText(
+            poly_line_a3030b60d725b7b36a123dc480e01290.setText(
                 "\u003e\u003e\u003e",
                 {"below": false, "center": true, "fontSize": 14, "offset": 0, "orientation": 0, "repeat": true, "textOpacity": 0}
+            );
+        
+    
+            map_00234cfdcd698e59aa42ab19abb2728f.fitBounds(
+                [[41.859014, 12.466811], [41.928304, 12.510563]],
+                {}
             );
         
 </script>
