@@ -1,12 +1,74 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <!-- ... -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Itinerary</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            color: var(--text-color);
+            background-color: var(--background-color);
+        }
+
+        h1, h2, h3 {
+            margin-bottom: 10px;
+        }
+
+        h1 {
+            font-size: 24px;
+        }
+
+        h2 {
+            font-size: 20px;
+        }
+
+        h3 {
+            font-size: 18px;
+        }
+
+        ul {
+            margin: 0;
+            padding-left: 20px;
+            list-style-type: none;
+        }
+
+        ul li {
+            margin-bottom: 5px;
+        }
+
+        ul li a {
+            color: var(--text-color);
+            text-decoration: none;
+        }
+
+        ul li a:hover {
+            text-decoration: underline;
+        }
+
+        .map {
+            margin-bottom: 20px;
+        }
+
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --background-color: #1c1c1e;
+                --text-color: #ffffff;
+            }
+        }
+
+        @media (prefers-color-scheme: light) {
+            :root {
+                --background-color: #ffffff;
+                --text-color: #000000;
+            }
+        }
+    </style>
 </head>
 <body>
-    <header>
-        <!-- ... -->
-    </header>
+    <h1>Italy Trip Itinerary</h1>
     <main>
         <iframe src="summary_map.html" width="100%" height="400" frameborder="10"></iframe>
         <h2>Day 1 - <a href="2023-04-22.html" target="_blank">Map</a></h2><div class="table-container"><table>
